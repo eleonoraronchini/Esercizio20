@@ -1,0 +1,41 @@
+$size-0: 0;
+$size-1: 0.25rem;
+$size-2: 0.5rem;
+$size-3: 1rem;
+$size-4: 1.5rem;
+$size-5: 3rem;
+$main-color: palegreen;
+$secondary-color: #008443;
+$font-serif: Georgia, "Times New Roman", Times, serif;
+$font-sans-serif: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: $font-sans-serif;
+  margin: $size-0;
+  padding: $size-0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font: {
+      family: $font-serif;
+      weight: 600;
+    }
+    margin-top: $size-0;
+  }
+  p {
+    margin: $size-0;
+  }
