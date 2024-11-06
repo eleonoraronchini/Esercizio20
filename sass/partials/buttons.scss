@@ -1,0 +1,28 @@
+@import "./reset.scss";
+
+.btn {
+    padding-left:$size-5;
+    padding-right: $size-5;
+    width: 15%;
+    padding: 1rem;
+    color: blue;
+    background-color: $tertiary-color;
+    border: solid 2px $secondary-color;
+    border-radius: 15px;
+    margin-right: 1rem;
+    font-weight: bold;
+    @media screen and (min-width:992px) {
+        width: 12%;
+    }
+
+}
+.btn-2{
+    @extend .btn;
+    background-color: $main-color;
+    color: rgb(246, 14, 14) ;
+}
+.btn-3 {
+    @extend .btn;
+    background-color: rgb(237, 147, 37);
+    color: purple;
+}

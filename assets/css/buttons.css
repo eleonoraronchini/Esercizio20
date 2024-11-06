@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.btn, .btn-3, .btn-2 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  width: 15%;
+  padding: 1rem;
+  color: blue;
+  background-color: palevioletred;
+  border: solid 2px #008443;
+  border-radius: 15px;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+@media screen and (min-width: 992px) {
+  .btn, .btn-3, .btn-2 {
+    width: 12%;
+  }
+}
+
+.btn-2 {
+  background-color: palegreen;
+  color: rgb(246, 14, 14);
+}
+
+.btn-3 {
+  background-color: rgb(237, 147, 37);
+  color: purple;
+}/*# sourceMappingURL=buttons.css.map */

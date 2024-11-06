@@ -1,5 +1,5 @@
 @import "./partials/reset.scss";
-
+@import "./partials/buttons.scss";
 
 h1 {
     color:$secondary-color;
@@ -31,8 +31,15 @@ nav:hover {
     
 }
 nav a:hover {
-    color: black;
+    color: blue;
 }
+nav .about:hover {
+    color:rgb(246, 14, 14) ;
+}
+nav .services:hover {
+    color: rgb(209, 40, 209);
+}
+
 nav img{
     width: 20%;
     @media screen and (min-width:992px) {
@@ -66,21 +73,7 @@ header {
         border-bottom-right-radius: 15%;;
     }
 }
-header button {
 
-    padding-left: 3rem;
-    padding-right: 3rem;
-    width: 15%;
-    padding: 1rem;
-    background-color: $main-color;
-    border: solid 2px $secondary-color;
-    border-radius: 15px;
-    margin-right: 1rem;
-    @media screen and (min-width:992px) {
-        width: 12%;
-    }
-    
-}
 header button:hover {
     background-color: $secondary-color;
     color: white;
